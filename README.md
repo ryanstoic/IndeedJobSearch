@@ -19,3 +19,14 @@ I realized manually searching for jobs on **Indeed** was ineffective and wasting
     * >python **_main.py_** 
 7. Open _jobs.csv_ in Excel or Google Sheets
 
+# Other Nonessential Details
+
+* Indeed scraper takes _job_ input and _location_ input from command prompt. Feel free to leave _location_ empty and it will return more jobs.
+* Indeed scraper returns information while scraping such as:
+  * _Page 1 processed. Total jobs collected so far: 8._
+  * _Page 2 processed. Total jobs collected so far: 20._
+  * _Page 3 processed. Total jobs collected so far: 30._
+* Indeed scraper will prompt you after 10 pages collected:
+  * Yes will continue for another 10 pages then ask you again. No will stop.
+  * _Processed 10 pages. Would you like to continue? (yes/no):_
+* Implicit waits are included because load times vary. Please be patient.
