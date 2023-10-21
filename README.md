@@ -1,6 +1,6 @@
 # IndeedJobSearch
 
-I realized manually searching for jobs on **Indeed** was ineffective and wasting too much time so I created a tool to scrape **Indeed**. Running **_main.py_** takes user input for _job_ and _location_, then writes to csv file to make the job hunt more efficient. I also removed any job post that was unwilling to list pay details in description because those jobs are annoying. Check out **examples** folder for an example of the scrape. Good luck and I hope this helps you!
+I realized manually searching for jobs on **Indeed** was ineffective and wasting too much time so I created an **Indeed** scraper. Running **_main.py_** takes user input for _job_ and _location_, then writes to csv file to make the job hunt more efficient. I also removed any job post that was unwilling to list pay details ("$") in description because those jobs are annoying. Check out **examples** folder for an example of the scrape. Good luck and I hope this helps you!
 
 # Get Started
 
